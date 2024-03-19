@@ -55,7 +55,7 @@
             <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Seth-Kimani&theme=radical" alt="Seth-Kimani"/>
         </a>
     </p>
-    <p align="right" > Created by <a href="https://github.com/Seth-Kimani">JuliaMuiruri4</a>
+    <p align="right" > Created by <a href="https://github.com/Seth-Kimani">Seth -Kimani</a>
     </p>
     <p align="right" > 
         <img src="https://komarev.com/ghpvc/?username=Seth-Kimani&label=Profile%20views&color=0e75b6&style=flat" 
