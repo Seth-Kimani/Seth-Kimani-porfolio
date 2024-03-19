@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/logo.jpg" type="image/png">
+	<!-- <link rel="shortcut icon" href="images/logo.jpg" type="image/png"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<title>Portfolio</title>
+</head>
+<body>
+		<nav>
+			<div>
+				<img src="images/logo.jpg" alt="logo">
+			</div>
+			<ul>
+				<li><a href="#" class="bar"><i class="fa-solid fa-bars"></i></a></li>
+				<li><a href="#home"  class="link"><i class="fa-solid fa-house"></i></a></li>
+				<li><a href="#about" class="link">About</a></li>
+				<li><a href="#projects" class="link">Projects</a></li>
+				<li><a href="#contact"  class="link">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div class="modal">
+			<i class="fa-solid fa-x close"></i>
+			<div>
+				<a href="#home" class="link">Home</a>
+				<a href="#about" class="link">About</a>
+				<a href="#projects" class="link">Projects</a>
+				<a href="#contact" class="link">Contact</a>
+			</div>
+		</div>
+		
+		<section id="home">
+				<div class="left">
+					<h1>Front End Web Developer <img src="images/wave.png" alt=""></h1>
+					<p>Hi, I'm Abenezer Tesfaye. A passionate Front-end Developer based in Addis Ababa, Ethiopia.<i class="fa-solid fa-location-dot"></i></p>
+					<div>
+						<a href="https://github.com/abeni-92" target="_blank"><i class="fa-brands fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/abenezer-tesfaye-4298641a2" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+					</div>
+					<div class="stack">
+						<h4>Tech Stack</h4>
+						<div>
+							<img src="images/html.png" alt="">
+							<img src="images/css.png" alt="">
+							<img src="images/js.png" alt="">
+							<img src="images/react.png" alt="">
+							<img src="images/webpack.png" alt="">
+							<img src="images/sass.png" alt="">
+							<img src="images/tailwind.jpg" alt="">	
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<img src="./images/aa.jpg" alt="mypic">
+				</div>			
+		</section>
+
+		<section id="about">
+		    <div class="left">
+				<img src="images/setup.jpg" alt="">
+		    </div>
+		    <div class="right">
+				<h5>ABOUT ME</h5>
+				<h4>Enthusiast Front End Developer based in Addis Ababa Ethiopia.<i class="fa-solid fa-location-dot"></i> </h4>
+				<p>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
+			</div>
+		</section>
+
+		<section id="projects">
+			<h5>Portfolio Projects</h5>
+			<div class="cards">
+				<div class="card">
+					<div class="left">
+						<a target="_blank" href="https://abeni-92.github.io/Ecommerce/index.html"><img src="images/ecommerce.PNG" alt=""></a>
+					</div>
+					<div class="right">
+						<h3>Ecommerce</h3>
+						<p class="desc">Discover a world of convenience and endless choices at our ecommerce site. Shop with ease and explore a diverse range of products from the comfort of your home.</p>
+						<div class="tech">
+							<p>HTML</p>
+							<p>CSS</p>
+							<p>JS</p>
+						</div>
+						<div>
+							<a target="_blank" href="https://github.com/abeni-92/Ecommerce">Code <i class="fa-brands fa-github"></i></a>
+							<a target="_blank" href="https://abeni-92.github.io/Ecommerce/index.html">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="right">
+						<h3>Gymnasium</h3>
+						<p class="desc">Step into a world of fitness and wellness with our gymnasium website. Explore our state-of-the-art facilities, expert trainers, and a community dedicated to helping you achieve your fitness goals. Join us on the journey to a healthier, stronger you.</p>
+						<div class="tech">
+							<p>HTML</p>
+							<p>SCSS</p>
+							<p>JS</p>
+						</div>
+						<div>
+							<a target="_blank" href="https://github.com/abeni-92/gymnasium">Code <i class="fa-brands fa-github"></i></a>
+							<a target="_blank" href="https://abeni-92.github.io/gymnasium/index.html">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="left">
+						<a target="_blank" href="https://abeni-92.github.io/gymnasium/index.html"><img src="images/gymnasium.PNG" alt=""></a>
+					</div>
+				</div>
+				<div class="card">
+					<div class="left">
+						<a target="_blank" href="https://abeni-92.github.io/Car-Rental/"><img src="images/carrental.PNG" alt=""></a>
+					</div>
+					<div class="right">
+						<h3>Car Rental</h3>
+						<p class="desc">Hit the road with ease through our car rental website. Choose from a fleet of vehicles and enjoy a hassle-free booking experience for your next adventure.</p>
+						<div class="tech">
+							<p>HTML</p>
+							<p>SCSS</p>
+							<p>JS</p>
+						</div>
+						<div>
+							<a target="_blank" href="https://github.com/abeni-92/Car-Rental">Code <i class="fa-brands fa-github"></i></a>
+							<a target="_blank" href="https://abeni-92.github.io/Car-Rental/">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="right">
+						<h3>Service Provider</h3>
+						<p class="desc">Elevate your service business with our web app. Streamline operations, manage appointments, and connect with clients seamlessly, all in one place.</p>
+						<div class="tech">
+							<p>HTML</p>
+							<p>SCSS</p>
+							<p>JS</p>
+						</div>
+						<div>
+							<a target="_blank" href="https://github.com/abeni-92/Service-Provider">Code <i class="fa-brands fa-github"></i></a>
+							<a target="_blank" href="https://abeni-92.github.io/Service-Provider/index.html">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="left">
+						<a target="_blank" href="https://abeni-92.github.io/Service-Provider/index.html"><img src="images/serviceprovider.PNG" alt=""></a>
+					</div>
+				</div>
+				<div class="card">
+					<div class="left">
+						<a target="_blank" href="https://abeni-92.github.io/The-Weather-App/"><img src="images/weather.PNG" alt=""></a>
+					</div>
+					<div class="right">
+						<h3>Weather App</h3>
+						<p class="desc">Stay one step ahead of the elements with our weather app. Get real-time forecasts, weather alerts, and detailed insights, ensuring you're always prepared for whatever Mother Nature has in store.</p>
+						<div class="tech">
+							<p>HTML</p>
+							<p>SCSS</p>
+							<p>JS</p>
+						</div>
+						<div>
+							<a target="_blank" href="https://github.com/abeni-92/The-Weather-App">Code <i class="fa-brands fa-github"></i></a>
+							<a target="_blank" href="https://abeni-92.github.io/The-Weather-App/">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="right">
+						<h3>Resturant Website</h3>
+						<p class="desc">Indulge your senses with our restaurant website, where delectable cuisine and inviting ambiance come together. Explore our menu, reserve a table, and embark on a culinary journey to satisfy your cravings.</p>
+						<div class="tech">
+							<p>HTML</p>
+							<p>SCSS</p>
+							<p>Webpack</p>
+							<p>JS</p>
+						</div>
+						<div>
+							<a target="_blank" href="https://github.com/abeni-92/resturant_page">Code <i class="fa-brands fa-github"></i></a>
+							<a target="_blank" href="https://abeni-92.github.io/resturant_page/">Live Demo<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+						</div>
+					</div>
+					<div class="left">
+						<a target="_blank" href="https://abeni-92.github.io/resturant_page/"><img src="images/resturant.PNG" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<h5>Contact</h5>
+			<h3>Hit Me up! <img src="images/point-down.png" alt=""></h3>
+			<div class="container">
+				<div class="item">
+					<i class="fa-solid fa-map-location-dot"></i>
+					<div>
+						<h6>Location</h6>
+						<a href="#">Addis Ababa, Ethiopia</a>
+					</div>
+				</div>
+				<div class="item">
+					<i class="fa-regular fa-envelope"></i>
+					<div>
+						<h6>Mail</h6>
+						<a href="mailto:abenezertesfaye92@gmail.com" target="_blank">abenezertesfaye92@gmail.com</a>
+					</div>
+				</div>
+				<div class="item">
+					<i class="fa-solid fa-phone"></i>
+					<div>
+						<h6>Phone</h6>
+						<a href="#">+251927350110</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<h6>copyright &copy; 2023. All right are reserved.</h6>
+			<div>
+				<a href="https://github.com/abeni-92" target="_blank"><i class="fa-brands fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/abenezer-tesfaye-4298641a2" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+			</div>
+		</footer>
+	</main>
+</body>
+</html>
