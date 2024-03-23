@@ -300,12 +300,12 @@ nav ul li a:hover {
   height: 100%;
   min-height: 350px;
   object-fit: cover;
-  filter: grayscale(80%);
+  filter: grayscale(0%);
   transition: transform 0.5s ease-in-out, filter 0.5s ease;
 }
 
 #projects .cards .card .left img:hover {
-  filter: grayscale(0);
+  filter: grayscale(80%);
   transform: scale(1.2);
 }
 
@@ -549,7 +549,9 @@ footer div i:hover {
   font-size: 0.9rem;
   margin: 0 0.5rem;
 }
-
+.responsibility {
+  text-align: left;
+}
 #timeline p {
   padding: 1rem 0 1rem 1rem;
   color: #000;
@@ -568,6 +570,7 @@ footer div i:hover {
 }
 
 #timeline button:hover {
+  cursor: none;
   background-color: #17202a;
   color: #fff;
 }
@@ -595,7 +598,7 @@ footer div i:hover {
   width: 450px;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
+  border-radius: 20px;
   transform: translateX(400%);
   transition: all 0.5s ease-in-out;
 }
